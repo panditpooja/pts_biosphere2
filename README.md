@@ -1,5 +1,3 @@
-# pts_biosphere2
-
 # 🌍 Biosphere 2 Digital Twin AI
 
 **An AI-powered, real-time digital twin simulation of the Biosphere 2 ecosystem**, integrating sensor data, crop health analysis, autonomous terrain navigation, and a local LLM-based decision-making interface.
