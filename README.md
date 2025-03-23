@@ -28,16 +28,15 @@ This project simulates a digital twin of **Biosphere 2**, using real sensor data
 
 ## Code Structure
 
-├── main.py                # Runs the simulation loop (Pygame + Q-Learning + Sensor + AI)
-├── sensor_interface.py    # Loads and streams real Biosphere 2 sensor CSVs
-├── crop_health.py         # Scores and colorizes crop health based on environmental factors
-├── terrain_agent.py       # RL agent logic and terrain generation
-├── control_engine.py      # Applies AI-driven actions (irrigate, ventilate, reroute)
-├── llm_reasoner.py        # Interacts with local LLM (Ollama) and parses reasoning
-├── twin_overlay.py        # Renders UI overlays in simulation window
-├── web_chatbot.py         # FastAPI-powered chatbot for user-AI interaction
-├── q_table.pkl            # Q-learning knowledge base (auto-generated)
-
+├── main.py                # Runs the simulation loop (Pygame + Q-Learning + Sensor + AI)<br>
+├── sensor_interface.py    # Loads and streams real Biosphere 2 sensor CSVs<br>
+├── crop_health.py         # Scores and colorizes crop health based on environmental factors<br>
+├── terrain_agent.py       # RL agent logic and terrain generation<br>
+├── control_engine.py      # Applies AI-driven actions (irrigate, ventilate, reroute)<br>
+├── llm_reasoner.py        # Interacts with local LLM (Ollama) and parses reasoning<br>
+├── twin_overlay.py        # Renders UI overlays in simulation window<br>
+├── web_chatbot.py         # FastAPI-powered chatbot for user-AI interaction<br>
+├── q_table.pkl            # Q-learning knowledge base (auto-generated)<br>
 
 ---
 
