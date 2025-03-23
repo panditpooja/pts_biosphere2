@@ -11,8 +11,6 @@ This project simulates a digital twin of **Biosphere 2**, using real sensor data
 - Use **Local LLM Reasoning** to decide when to irrigate, ventilate, or reroute paths based on sensor alerts
 - Provide both a **visual simulation** (via Pygame) and a **chat interface** (via FastAPI + HTML)
 
----
-
 ## Key Features
 
 | Feature               | Description                                                                 |
@@ -23,8 +21,6 @@ This project simulates a digital twin of **Biosphere 2**, using real sensor data
 | Crop Health Engine  | Evaluates crops (Tomatoes, Corn) and color-codes health status                |
 | Web Chatbot         | Ask questions to the Digital Twin and get AI-backed recommendations           |
 | Overlay UI          | Real-time simulation with visual feedback (alerts, AI thoughts, health)       |
-
----
 
 ## Code Structure
 
@@ -38,7 +34,6 @@ This project simulates a digital twin of **Biosphere 2**, using real sensor data
 ├── web_chatbot.py         # FastAPI-powered chatbot for user-AI interaction<br>
 ├── q_table.pkl            # Q-learning knowledge base (auto-generated)<br>
 
----
 
 ## AI + RL Architecture
 
@@ -46,7 +41,6 @@ This project simulates a digital twin of **Biosphere 2**, using real sensor data
 - **Local LLM** (like Mistral via Ollama) interprets sensor alerts and recommends actions.
 - **AI actions** are parsed, applied, and reflected live in both the simulation and the web chatbot.
 
----
 
 ## Getting Started
 
@@ -60,7 +54,6 @@ This project simulates a digital twin of **Biosphere 2**, using real sensor data
 ```bash
 pip install pygame fastapi uvicorn pandas
 
----
 🤖 Pull the LLM Model
 bash
 Copy
@@ -72,7 +65,6 @@ Copy
 Edit
 python main.py
 
----
 💬 Launch the Web Chat Interface
 bash
 Copy
